@@ -1,62 +1,624 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="3D Print Factory: Tycoon gizlilik politikası ve privacy policy.">
-  <title>Gizlilik Politikası | 3D Print Factory: Tycoon</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="3D Print Factory: Tycoon - Gizlilik Politikası ve Privacy Policy">
+
+  <title>3D Print Factory: Tycoon - Gizlilik Politikası</title>
+
   <style>
-    :root{color-scheme:dark;--bg:#111519;--surface:#1c2229;--gold:#e7ad4c;--text:#f6f1e7;--muted:#bec5ce;--line:#37414b}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#262d34,transparent 40%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}main{max-width:850px;margin:auto;padding:42px 20px 72px}header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:24px}h1{font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.2;margin:.2rem 0;color:#fff}h2{font-size:1.15rem;color:var(--gold);margin:26px 0 6px}p,li{color:var(--muted)}strong{color:var(--text)}.eyebrow{letter-spacing:.16em;text-transform:uppercase;font-size:.77rem;color:var(--gold);font-weight:700}.meta{font-size:.88rem}.pill{display:inline-block;padding:5px 11px;border:1px solid var(--line);border-radius:99px;color:var(--gold);text-decoration:none;margin:8px 8px 0 0}.warning{background:#372a18;border:1px solid #94652f;color:#ffe1a5;border-radius:12px;padding:16px 18px;margin-bottom:24px}.warning strong{color:#fff1c8}section{border:1px solid var(--line);background:var(--surface);padding:20px 24px;border-radius:16px;margin:24px 0}a{color:#f5c97e;overflow-wrap:anywhere}footer{font-size:.84rem;color:var(--muted);padding-top:18px;border-top:1px solid var(--line)}@media(max-width:550px){section{padding:17px}main{padding-top:24px}}
+    :root {
+      color-scheme: dark;
+      --bg: #111519;
+      --surface: #1c2229;
+      --gold: #e7ad4c;
+      --text: #f6f1e7;
+      --muted: #bec5ce;
+      --line: #37414b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(
+        circle at 80% 0,
+        #262d34,
+        transparent 40%
+      ), var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, Arial, sans-serif;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 42px 20px 72px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(1.7rem, 3vw, 2.5rem);
+      line-height: 1.2;
+      color: white;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      color: var(--gold);
+      margin: 26px 0 6px;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    a {
+      color: #f5c97e;
+      overflow-wrap: anywhere;
+    }
+
+    .eyebrow {
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 0.77rem;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .meta {
+      font-size: 0.88rem;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 99px;
+      color: var(--gold);
+      text-decoration: none;
+      margin: 8px 8px 0 0;
+    }
+
+    section {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 20px 24px;
+      border-radius: 16px;
+      margin: 24px 0;
+    }
+
+    .notice {
+      background: #372a18;
+      border: 1px solid #94652f;
+      color: #ffe1a5;
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-bottom: 24px;
+    }
+
+    footer {
+      font-size: 0.84rem;
+      color: var(--muted);
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      text-align: center;
+    }
+
+    @media (max-width: 550px) {
+      main {
+        padding-top: 24px;
+      }
+
+      section {
+        padding: 17px;
+      }
+    }
   </style>
 </head>
+
 <body>
 <main>
+
   <header>
-    <div class="eyebrow">3D Print Factory: Tycoon</div>
-    <h1>Gizlilik Politikası / Privacy Policy</h1>
-    <p class="meta">Android · Paket adı / Package name: <strong>com.threedprinterfactory.game</strong><br>Son güncelleme / Last updated: <strong>24 Kasım / November 2026</strong></p>
-    <a class="pill" href="#tr">Türkçe</a><a class="pill" href="#en">English</a>
+    <div class="eyebrow">Metin Öztürk Software</div>
+
+    <h1>3D Print Factory: Tycoon</h1>
+
+    <p>Gizlilik Politikası / Privacy Policy</p>
+
+    <p class="meta">
+      Android Uygulaması / Android Application<br>
+      Paket Adı / Package Name:
+      <strong>com.threedprinterfactory.game</strong>
+      <br>
+      Son Güncelleme / Last Updated:
+      <strong>24 Kasım 2026 / November 24, 2026</strong>
+    </p>
+
+    <a class="pill" href="#tr">Türkçe</a>
+    <a class="pill" href="#en">English</a>
   </header>
-  <div class="warning"><strong>Yayımlamadan önce tamamlanacak taslak / Draft — not ready for publication.</strong><br>İletişim e-postasını ekleyin; yayınlanacak Android sürümünde reklam, analitik, Unity Diagnostics ve internet/bulut hizmetlerinin durumunu doğrulayın. / Add a contact email and verify ads, analytics, Unity Diagnostics and online/cloud services in the release build.</div>
+
+  <div class="notice">
+    <strong>Yayın öncesi doğrulama / Pre-release verification</strong>
+    <p>
+      Bu politika henüz taslak aşamasındadır.
+      Yayınlanacak uygulama sürümündeki reklam,
+      analiz, Unity Diagnostics ve çevrimiçi
+      hizmetlerin veri işleme davranışları
+      doğrulandıktan sonra kesinleştirilecektir.
+    </p>
+    <p>
+      This policy is currently a draft.
+      Data practices involving advertising,
+      analytics, Unity Diagnostics and online
+      services must be verified against the
+      release version before publication.
+    </p>
+  </div>
+
+  <!-- TÜRKÇE GİZLİLİK POLİTİKASI -->
+
   <section id="tr" lang="tr">
-    <h2>1. Kapsam</h2>
-    <p>Bu gizlilik politikası, <strong>3D Print Factory: Tycoon</strong> adlı Android oyununun veri işleme uygulamalarını açıklamak amacıyla hazırlanmıştır. Oyunun geliştiricisi/yayıncısı: <strong>[GELİŞTİRİCİ VEYA YAYINCI ADI]</strong>.</p>
-    <h2>2. Oyun kayıtları</h2>
-    <p>Oyun, ilerleme, fabrika düzeni, ürün stoku, oyun içi para ve benzeri oyun durumlarını cihaz üzerinde kaydedebilir. Bu kayıtlar oyuna kaldığınız yerden devam etmenizi sağlamak için kullanılır. Hesap veya sunucuya veri aktarımı gibi işlevler etkinleştirilirse bu politika ilgili veri akışına göre güncellenecektir.</p>
-    <h2>3. Tanılama ve üçüncü taraf hizmetler</h2>
-    <p>Oyun Unity oyun motoru ile geliştirilmiştir. Unity Diagnostics hizmeti yayınlanan sürümde etkinse hata/çökme kayıtları, uygulama sürümü, işletim sistemi sürümü ve cihazla ilgili teknik bilgiler Unity tarafından işlenebilir. Bu bilgiler hataları araştırmak ve oyun kararlılığını iyileştirmek için kullanılır. Hizmet etkin değilse bu kapsamda tanılama aktarımı yapılmaması amaçlanır. Ayrıntılar: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a>.</p>
-    <h2>4. Reklam ve analiz</h2>
-    <p><strong>[YAYINDAN ÖNCE DOĞRULA]</strong> Bu taslak, mevcut sürümde reklam ve reklam amaçlı izleme kullanılmadığı varsayımına dayanır. Gelecekte reklam veya analiz hizmeti etkinleştirilirse, kullanılan sağlayıcılar, veri türleri, amaçları ve gerektiğinde izin/tercih mekanizmaları yayına alınmadan önce bu politikada açıklanacaktır.</p>
-    <h2>5. Verilerin paylaşılması ve korunması</h2>
-    <p>Oyun kayıtlarının cihaz içinde tutulması amaçlanır. Etkinleştirilmiş üçüncü taraf hizmetlerin işlediği teknik veriler kendi gizlilik politikalarına ve ilgili güvenlik tedbirlerine tabidir. Geliştirici, oyuncu verilerini satmayı amaçlamaz. İnternet üzerinden hiçbir aktarım için mutlak güvenlik garantisi verilemez.</p>
-    <h2>6. Saklama ve silme</h2>
-    <p>Cihazda tutulan oyun verileri, uygulama verileri temizlenene veya uygulama kaldırılana kadar saklanabilir. Android cihaz ayarlarından uygulama verilerini temizleyebilir veya oyunu kaldırabilirsiniz. Cihaz/Google yedeklemeleri açıksa yedeklerin yönetimi ilgili platformun ayarlarına ve politikalarına bağlı olabilir. Herhangi bir sunucu hesabı veya haricî saklama işlevi eklenirse silme yöntemi ayrıca açıklanacaktır.</p>
-    <h2>7. Çocuklar ve değişiklikler</h2>
-    <p>Oyunun hedef yaş grubu ve varsa çocuklara ilişkin özel veri uygulamaları, Google Play'de seçilen hedef kitleyle uyumlu şekilde belirlenir. Bu politika, oyunun özellikleri veya geçerli kurallar değiştiğinde güncellenebilir; güncel sürüm bu sayfada yayımlanır.</p>
-    <h2>8. İletişim</h2>
-    <p>Gizlilik ve veri silme talepleri için: <strong>[İLETİŞİM E-POSTASI]</strong>.</p>
+
+    <h2>1. Geliştirici ve Kapsam</h2>
+
+    <p>
+      3D Print Factory: Tycoon, Metin Öztürk Software
+      tarafından geliştirilen bir Android fabrika
+      yönetimi ve simülasyon oyunudur.
+    </p>
+
+    <p>
+      Bu gizlilik politikası, oyunda işlenebilecek
+      kullanıcı verilerini, bu verilerin kullanım
+      amaçlarını, saklama yöntemlerini ve kullanıcıların
+      gizlilik haklarını açıklamaktadır.
+    </p>
+
+    <h2>2. Oyun Verileri ve Yerel Kayıtlar</h2>
+
+    <p>
+      Oyun, oyuncunun ilerlemesini koruyabilmek için
+      bazı oyun bilgilerini cihaz üzerinde saklayabilir.
+    </p>
+
+    <p>Bu bilgiler şunları içerebilir:</p>
+
+    <ul>
+      <li>Oyuncu seviyesi ve deneyim puanları</li>
+      <li>Fabrika düzeni ve genişletme bilgileri</li>
+      <li>Satın alınan ve yerleştirilen 3D yazıcılar</li>
+      <li>Üretilen ürünler ve depo stokları</li>
+      <li>Filament türleri, renkleri ve miktarları</li>
+      <li>Oyun içi para ve ekonomik ilerleme</li>
+      <li>Siparişler ve üretim durumları</li>
+      <li>Personel ve fabrika geliştirmeleri</li>
+      <li>Oyun tercihleri ve ayarlar</li>
+    </ul>
+
+    <p>
+      Bu kayıtların amacı, oyuncunun oyuna daha sonra
+      kaldığı yerden devam edebilmesini sağlamaktır.
+    </p>
+
+    <p>
+      Hesap oluşturma, bulut kaydetme veya sunucuya
+      veri aktarımı gibi özellikler etkinleştirilirse,
+      ilgili veri işleme faaliyetleri bu politikaya
+      eklenecektir.
+    </p>
+
+    <h2>3. Unity ve Teknik Tanılama Verileri</h2>
+
+    <p>
+      Oyun Unity oyun motoru kullanılarak geliştirilmiştir.
+    </p>
+
+    <p>
+      Yayınlanan sürümde Unity Diagnostics veya benzeri
+      hata raporlama hizmetleri etkinse aşağıdaki
+      teknik bilgiler işlenebilir:
+    </p>
+
+    <ul>
+      <li>Uygulama sürümü</li>
+      <li>Cihaz ve işletim sistemi bilgileri</li>
+      <li>Hata ve çökme raporları</li>
+      <li>Uygulama performansına ilişkin teknik bilgiler</li>
+    </ul>
+
+    <p>
+      Bu bilgiler uygulama hatalarını tespit etmek,
+      kararlılığı artırmak ve teknik sorunları
+      gidermek amacıyla kullanılabilir.
+    </p>
+
+    <p>
+      Verilerin işlenmesi, yayınlanan sürümde etkin olan
+      Unity hizmetlerine bağlıdır.
+    </p>
+
+    <p>
+      Unity gizlilik politikası:
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy"
+         target="_blank" rel="noopener noreferrer">
+        Unity Game Player and App User Privacy Policy
+      </a>
+    </p>
+
+    <h2>4. Reklamlar ve Analiz Hizmetleri</h2>
+
+    <p>
+      Mevcut taslak, yayınlanacak sürümde reklam veya
+      reklam amaçlı izleme bulunmadığı varsayımıyla
+      hazırlanmıştır. Bu durum uygulamanın son sürümü
+      üzerinden doğrulanacaktır.
+    </p>
+
+    <p>
+      Oyuna ileride reklam veya analiz hizmetleri
+      eklenirse bu politika, kullanılan hizmet
+      sağlayıcılarını, işlenen veri kategorilerini
+      ve veri kullanım amaçlarını açıklayacak
+      şekilde güncellenecektir.
+    </p>
+
+    <p>
+      Gerekli olduğu durumlarda kullanıcılara ilgili
+      gizlilik tercihleri ve izin mekanizmaları
+      sunulacaktır.
+    </p>
+
+    <h2>5. Verilerin Paylaşılması ve Güvenliği</h2>
+
+    <p>
+      Temel oyun ilerleme bilgilerinin cihazda
+      saklanması amaçlanmaktadır.
+    </p>
+
+    <p>
+      Etkin üçüncü taraf hizmetler tarafından işlenen
+      teknik veriler, ilgili hizmet sağlayıcılarının
+      güvenlik ve gizlilik koşullarına tabidir.
+    </p>
+
+    <p>
+      Geliştirici, oyuncuların kişisel verilerini
+      satmayı amaçlamaz.
+    </p>
+
+    <p>
+      Verilerin korunması için uygun güvenlik
+      önlemleri hedeflenmektedir. Bununla birlikte
+      hiçbir internet aktarımının tamamen risksiz
+      olduğu garanti edilemez.
+    </p>
+
+    <h2>6. Veri Saklama ve Silme</h2>
+
+    <p>
+      Cihaz üzerinde saklanan oyun kayıtları,
+      uygulama verileri temizlenene veya uygulama
+      kaldırılana kadar tutulabilir.
+    </p>
+
+    <p>
+      Oyuncular Android cihaz ayarlarından
+      uygulamanın verilerini temizleyebilir
+      veya uygulamayı kaldırabilir.
+    </p>
+
+    <p>
+      Android veya Google yedekleme hizmetlerinin
+      etkin olması durumunda yedeklenen verilerin
+      yönetimi ilgili platformun ayarlarına ve
+      politikalarına bağlı olabilir.
+    </p>
+
+    <p>
+      İleride kullanıcı hesabı veya çevrimiçi veri
+      depolama sistemi eklenirse hesap ve veri silme
+      yöntemleri ayrıca açıklanacaktır.
+    </p>
+
+    <h2>7. Çocukların Gizliliği</h2>
+
+    <p>
+      Oyunun hedef yaş grubu ve çocuklara yönelik
+      veri işleme uygulamaları, Google Play Console
+      üzerinden seçilen hedef kitleyle uyumlu
+      olacak şekilde belirlenecektir.
+    </p>
+
+    <p>
+      Çocuklara yönelik özel hizmetler veya veri
+      işleme faaliyetleri söz konusu olduğunda
+      gerekli korumalar uygulanacaktır.
+    </p>
+
+    <h2>8. Politika Değişiklikleri</h2>
+
+    <p>
+      Oyunun özellikleri, kullanılan teknolojiler
+      veya geçerli yasal gereklilikler değiştiğinde
+      bu gizlilik politikası güncellenebilir.
+    </p>
+
+    <p>
+      Güncel gizlilik politikası bu sayfada
+      yayımlanacaktır.
+    </p>
+
+    <h2>9. İletişim</h2>
+
+    <p>
+      Geliştirici:
+      <strong>Metin Öztürk Software</strong>
+    </p>
+
+    <p>
+      Gizlilik soruları, veri talepleri ve
+      diğer destek konuları için:
+    </p>
+
+    <p>
+      E-posta:
+      <a href="mailto:metinzr55@gmail.com">
+        metinzr55@gmail.com
+      </a>
+    </p>
+
   </section>
+
+  <!-- ENGLISH PRIVACY POLICY -->
+
   <section id="en" lang="en">
-    <h2>1. Scope</h2>
-    <p>This privacy policy describes the data practices of the Android game <strong>3D Print Factory: Tycoon</strong>. Developer/publisher: <strong>[DEVELOPER OR PUBLISHER NAME]</strong>.</p>
-    <h2>2. Game progress and local storage</h2>
-    <p>The game may store game progress, factory layouts, product inventory, in-game currency and similar game state on your device so you can resume playing. This policy will be updated to reflect any enabled account, server synchronization or other data transfers.</p>
-    <h2>3. Diagnostics and third-party services</h2>
-    <p>The game is developed using the Unity engine. If Unity Diagnostics is enabled in the published version, Unity may process crash/error logs, app version, operating system version and device technical information to diagnose problems and improve stability. If this service is disabled, diagnostic transmission through that service is not intended. See <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity's Game Player and App User Privacy Policy</a>.</p>
-    <h2>4. Advertising and analytics</h2>
-    <p><strong>[VERIFY BEFORE PUBLICATION]</strong> This draft assumes the current version does not serve ads or use advertising tracking. If advertising or analytics services are introduced, this policy will be updated before release to identify providers, data categories, purposes and any applicable consent or preference controls.</p>
-    <h2>5. Sharing and security</h2>
-    <p>The game is intended to keep core progress information on the device. Technical data processed by enabled third-party services is subject to those services' privacy and security practices. The developer does not intend to sell player data. No internet transmission can be guaranteed to be completely secure.</p>
-    <h2>6. Retention and deletion</h2>
-    <p>Locally stored game information may remain until you clear the app's data or uninstall it. You can do so through Android settings. Device or Google backup copies, if enabled, may be governed by the relevant platform's settings and policies. If online accounts or external storage are introduced, their deletion procedure will be described here.</p>
-    <h2>7. Children and changes</h2>
-    <p>The intended age group and any child-specific data practices will be established consistently with the target audience declared on Google Play. This policy may be updated as features or applicable rules change. The latest version will be available on this page.</p>
-    <h2>8. Contact</h2>
-    <p>For privacy questions and deletion inquiries: <strong>[CONTACT EMAIL]</strong>.</p>
+
+    <h2>1. Developer and Scope</h2>
+
+    <p>
+      3D Print Factory: Tycoon is an Android
+      factory management and simulation game
+      developed by Metin Öztürk Software.
+    </p>
+
+    <p>
+      This Privacy Policy explains the types
+      of information that may be processed,
+      their purposes, storage practices and
+      users' privacy rights.
+    </p>
+
+    <h2>2. Game Progress and Local Storage</h2>
+
+    <p>
+      The game may save gameplay information
+      locally on the user's device to preserve
+      progress between sessions.
+    </p>
+
+    <p>Such information may include:</p>
+
+    <ul>
+      <li>Player levels and experience points</li>
+      <li>Factory layouts and expansions</li>
+      <li>Purchased and placed 3D printers</li>
+      <li>Manufactured products and inventory</li>
+      <li>Filament types, colors and quantities</li>
+      <li>In-game currency and economic progress</li>
+      <li>Orders and production status</li>
+      <li>Employees and factory upgrades</li>
+      <li>Gameplay preferences and settings</li>
+    </ul>
+
+    <p>
+      This information is used to allow players
+      to resume their game progress.
+    </p>
+
+    <p>
+      If account registration, cloud saves or
+      server synchronization features are
+      introduced, this policy will be updated
+      to describe the applicable data practices.
+    </p>
+
+    <h2>3. Unity and Diagnostic Information</h2>
+
+    <p>
+      The game is developed using the Unity
+      game engine.
+    </p>
+
+    <p>
+      If Unity Diagnostics or similar reporting
+      services are enabled in the published
+      version, technical data may be processed,
+      including:
+    </p>
+
+    <ul>
+      <li>Application version</li>
+      <li>Device and operating system information</li>
+      <li>Error logs and crash reports</li>
+      <li>Technical application performance data</li>
+    </ul>
+
+    <p>
+      Such information may be used to diagnose
+      errors, improve application stability
+      and resolve technical issues.
+    </p>
+
+    <p>
+      The actual processing depends on the
+      Unity services enabled in the release build.
+    </p>
+
+    <p>
+      For more information:
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy"
+         target="_blank" rel="noopener noreferrer">
+        Unity Game Player and App User Privacy Policy
+      </a>
+    </p>
+
+    <h2>4. Advertising and Analytics</h2>
+
+    <p>
+      This draft assumes that the published
+      version does not serve advertising or
+      use advertising tracking. This assumption
+      must be verified against the final
+      application build.
+    </p>
+
+    <p>
+      If advertising or analytics services
+      are introduced, this policy will be updated
+      to explain the providers, data categories
+      and purposes of processing.
+    </p>
+
+    <p>
+      Where required, appropriate privacy
+      preferences and consent mechanisms
+      will be provided.
+    </p>
+
+    <h2>5. Data Sharing and Security</h2>
+
+    <p>
+      Core game progress information is intended
+      to be stored locally on the device.
+    </p>
+
+    <p>
+      Technical information processed by enabled
+      third-party services is subject to the
+      privacy and security practices of those
+      service providers.
+    </p>
+
+    <p>
+      The developer does not intend to sell
+      players' personal data.
+    </p>
+
+    <p>
+      Appropriate security measures are intended
+      to protect information. However, no
+      internet transmission can be guaranteed
+      to be completely secure.
+    </p>
+
+    <h2>6. Data Retention and Deletion</h2>
+
+    <p>
+      Locally stored gameplay information may
+      remain on the device until the user clears
+      application data or uninstalls the game.
+    </p>
+
+    <p>
+      Users can manage local application data
+      through their Android device settings.
+    </p>
+
+    <p>
+      Device or Google backup services, if
+      enabled, may retain copies according to
+      the relevant platform settings and policies.
+    </p>
+
+    <p>
+      If online accounts or external data
+      storage features are introduced, their
+      deletion procedures will be described
+      in this policy.
+    </p>
+
+    <h2>7. Children's Privacy</h2>
+
+    <p>
+      The intended audience and any
+      child-specific data practices will
+      be established consistently with
+      the target audience declared
+      on Google Play.
+    </p>
+
+    <p>
+      Appropriate safeguards will be applied
+      where child-specific services or data
+      processing activities are involved.
+    </p>
+
+    <h2>8. Changes to This Policy</h2>
+
+    <p>
+      This Privacy Policy may be updated
+      when game features, technologies
+      or applicable legal requirements change.
+    </p>
+
+    <p>
+      The latest version will be made available
+      on this page.
+    </p>
+
+    <h2>9. Contact</h2>
+
+    <p>
+      Developer:
+      <strong>Metin Öztürk Software</strong>
+    </p>
+
+    <p>
+      For privacy questions, data requests
+      or other support inquiries:
+    </p>
+
+    <p>
+      Email:
+      <a href="mailto:metinzr55@gmail.com">
+        metinzr55@gmail.com
+      </a>
+    </p>
+
   </section>
-  <footer>3D Print Factory: Tycoon · Privacy Policy · 2026</footer>
+
+  <footer>
+    <p>
+      © 2026 Metin Öztürk Software
+    </p>
+    <p>
+      3D Print Factory: Tycoon |
+      Privacy Policy
+    </p>
+  </footer>
+
 </main>
 </body>
 </html>
